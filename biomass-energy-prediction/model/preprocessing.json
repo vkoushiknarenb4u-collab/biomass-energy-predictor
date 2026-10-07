@@ -1,0 +1,14 @@
+{
+  "features": [
+    "quantity_kg",
+    "moisture_percent",
+    "calorific_value_mj_kg"
+  ],
+  "target": "energy_kwh",
+  "missing_value_strategy": "median",
+  "medians": {
+    "quantity_kg": 287.5,
+    "moisture_percent": 17.0,
+    "calorific_value_mj_kg": 16.45
+  }
+}
